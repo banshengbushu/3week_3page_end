@@ -1,7 +1,6 @@
 body {
   padding: 30px;
   font-family: cursive, Tahoma, Helvetica, Arial, "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑", sans-serif;
-
   ul {
     list-style: none;
   }
@@ -31,8 +30,25 @@ body {
     transform-style: preserve-3d;
   }
 
+  @keyframes h2_silde {
+    from {
+      margin-bottom: 100%;
+    }
+
+    to {
+      width: 100%;
+    }
+  }
+
+  .slide {
+    animation: h2_silde 8s;
+    animation-direction: alternate-reverse;
+    -moz-animation: h2_silde 8s; /* Firefox */
+    -webkit-animation: h2_silde 8s; /* Safari and Chrome */
+    -o-animation: h2_silde 8s; /* Opera */
+  }
+
   header {
-    color: #999;
     video {
       width: 80px;
       border-radius: 50px;
@@ -52,6 +68,10 @@ body {
       margin-right: 15px;
     }
 
+    a {
+      color: #999;
+    }
+
     .main {
       background-image: url("../../images/panel.jpg");
       width: 100%;
@@ -65,6 +85,10 @@ body {
 
       h3 {
         margin-left: 40px;
+      }
+
+      h4 {
+        margin: 20px 0 20px 60px;
       }
 
       p {
@@ -98,5 +122,4 @@ body {
       }
     }
   }
-
 }
