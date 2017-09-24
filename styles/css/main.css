@@ -53,8 +53,7 @@ body {
     background-size: cover;
     background-position: 50% 50%;
     margin: 15px 0 50px 0;
-    clear: both;
-    font-weight: 500; }
+    clear: both; }
     body header .main h3 {
       margin-left: 20px;
       padding-top: 30px; }
@@ -62,10 +61,12 @@ body {
       margin: 20px 0 20px 40px; }
     body header .main p {
       font-size: 20px;
-      margin: 20px 0 20px 60px; }
+      margin: 20px 0 20px 60px;
+      font-weight: 500; }
     body header .main span {
       font-size: 18px;
-      margin-left: 80px; }
+      margin-left: 80px;
+      font-weight: 500; }
   body .container h3 {
     color: #999; }
   body footer {
