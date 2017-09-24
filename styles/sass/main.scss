@@ -18,7 +18,11 @@ body {
     0px 8px 1px #001135;
   }
 
-  .press {text-shadow: 0 1px 1px #FFF; color: #717171; background:#d3d3d3;}
+  .press {
+    text-shadow: 0 1px 1px #FFF;
+    color: #717171;
+    background: #d3d3d3;
+  }
 
   .thumbnail:hover {
     transform: scale(1.1);
@@ -33,6 +37,13 @@ body {
       border-radius: 50px;
       margin-right: 20px;
     }
+
+    .icon {
+      position: absolute;
+      top: 5%;
+      font-size: 30px;
+    }
+
     img {
       width: 50px;
       height: 40px;
@@ -46,12 +57,24 @@ body {
       height: 550px;
       background-size: cover;
       margin: 15px 0 50px 0;
-    }
 
-    span {
-      position: absolute;
-      top: 5%;
-      font-size: 30px;
+      h2 {
+        margin-left: 20px;
+      }
+
+      h3 {
+        margin-left: 40px;
+      }
+
+      p {
+        font-size: 20px;
+        margin: 20px 0 20px 70px;
+      }
+
+      span {
+        font-size: 18px;
+        margin-left: 100px;
+      }
     }
   }
 

@@ -20,6 +20,10 @@ body {
     width: 80px;
     border-radius: 50px;
     margin-right: 20px; }
+  body header .icon {
+    position: absolute;
+    top: 5%;
+    font-size: 30px; }
   body header img {
     width: 50px;
     height: 40px;
@@ -31,10 +35,16 @@ body {
     height: 550px;
     background-size: cover;
     margin: 15px 0 50px 0; }
-  body header span {
-    position: absolute;
-    top: 5%;
-    font-size: 30px; }
+    body header .main h2 {
+      margin-left: 20px; }
+    body header .main h3 {
+      margin-left: 40px; }
+    body header .main p {
+      font-size: 20px;
+      margin: 20px 0 20px 70px; }
+    body header .main span {
+      font-size: 18px;
+      margin-left: 100px; }
   body .container h3 {
     color: #999; }
   body footer {
