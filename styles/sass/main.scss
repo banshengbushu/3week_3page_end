@@ -31,7 +31,7 @@ body {
     transform-style: preserve-3d;
   }
 
-  @keyframes h2_silde {
+  @keyframes h3_silde {
     from {
       margin-bottom: 100%;
     }
@@ -42,11 +42,10 @@ body {
   }
 
   .slide {
-    animation: h2_silde 7s;
-    animation-direction: alternate-reverse;
-    -moz-animation: h2_silde 7s; /* Firefox */
-    -webkit-animation: h2_silde 7s; /* Safari and Chrome */
-    -o-animation: h2_silde 7s; /* Opera */
+    animation: h3_silde 7s;
+    -moz-animation: h3_silde 7s; /* Firefox */
+    -webkit-animation: h3_silde 7s; /* Safari and Chrome */
+    -o-animation: h3_silde 7s; /* Opera */
   }
 
   header {
@@ -87,7 +86,8 @@ body {
 
       h3 {
         margin-left: 20px;
-        padding-top: 30px;
+        padding: 20px;
+        line-height: 40px;
       }
 
       h4 {
@@ -95,7 +95,7 @@ body {
       }
 
       p {
-        font-size: 20px;
+        font-size: 19px;
         margin: 20px 0 20px 60px;
         font-weight: 500;
       }
@@ -106,7 +106,6 @@ body {
         font-weight: 500;
       }
     }
-
   }
 
   .container {

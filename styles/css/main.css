@@ -16,19 +16,18 @@ body {
     cursor: pointer;
     transition: all 0.6s;
     transform-style: preserve-3d; }
-@keyframes h2_silde {
+@keyframes h3_silde {
   from {
     margin-bottom: 100%; }
   to {
     width: 100%; } }
   body .slide {
-    animation: h2_silde 7s;
-    animation-direction: alternate-reverse;
-    -moz-animation: h2_silde 7s;
+    animation: h3_silde 7s;
+    -moz-animation: h3_silde 7s;
     /* Firefox */
-    -webkit-animation: h2_silde 7s;
+    -webkit-animation: h3_silde 7s;
     /* Safari and Chrome */
-    -o-animation: h2_silde 7s;
+    -o-animation: h3_silde 7s;
     /* Opera */ }
   body header video {
     width: 80px;
@@ -56,11 +55,12 @@ body {
     clear: both; }
     body header .main h3 {
       margin-left: 20px;
-      padding-top: 30px; }
+      padding: 20px;
+      line-height: 40px; }
     body header .main h4 {
       margin: 20px 0 20px 40px; }
     body header .main p {
-      font-size: 20px;
+      font-size: 19px;
       margin: 20px 0 20px 60px;
       font-weight: 500; }
     body header .main span {
