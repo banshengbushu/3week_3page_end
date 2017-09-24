@@ -22,13 +22,13 @@ body {
   to {
     width: 100%; } }
   body .slide {
-    animation: h2_silde 8s;
+    animation: h2_silde 7s;
     animation-direction: alternate-reverse;
-    -moz-animation: h2_silde 8s;
+    -moz-animation: h2_silde 7s;
     /* Firefox */
-    -webkit-animation: h2_silde 8s;
+    -webkit-animation: h2_silde 7s;
     /* Safari and Chrome */
-    -o-animation: h2_silde 8s;
+    -o-animation: h2_silde 7s;
     /* Opera */ }
   body header video {
     width: 80px;
@@ -48,11 +48,12 @@ body {
   body header .main {
     background-image: url("../../images/panel.jpg");
     width: 100%;
-    height: 550px;
+    height: 525px;
     background-size: cover;
     margin: 15px 0 50px 0; }
     body header .main h2 {
-      margin-left: 20px; }
+      margin-left: 20px;
+      padding-top: 30px; }
     body header .main h3 {
       margin-left: 40px; }
     body header .main h4 {

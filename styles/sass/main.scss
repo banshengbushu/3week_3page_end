@@ -41,11 +41,11 @@ body {
   }
 
   .slide {
-    animation: h2_silde 8s;
+    animation: h2_silde 7s;
     animation-direction: alternate-reverse;
-    -moz-animation: h2_silde 8s; /* Firefox */
-    -webkit-animation: h2_silde 8s; /* Safari and Chrome */
-    -o-animation: h2_silde 8s; /* Opera */
+    -moz-animation: h2_silde 7s; /* Firefox */
+    -webkit-animation: h2_silde 7s; /* Safari and Chrome */
+    -o-animation: h2_silde 7s; /* Opera */
   }
 
   header {
@@ -71,16 +71,16 @@ body {
     a {
       color: #999;
     }
-
     .main {
       background-image: url("../../images/panel.jpg");
       width: 100%;
-      height: 550px;
+      height: 525px;
       background-size: cover;
       margin: 15px 0 50px 0;
 
       h2 {
         margin-left: 20px;
+        padding-top: 30px;
       }
 
       h3 {
@@ -101,9 +101,13 @@ body {
         margin-left: 110px;
       }
     }
+
+
   }
 
   .container {
+
+
     h3 {
       color: #999;
     }
