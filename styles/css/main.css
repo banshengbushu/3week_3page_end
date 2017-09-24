@@ -47,7 +47,7 @@ body {
     body header .nav-tabs a {
       color: #999; }
   body header .main {
-    height: 550px;
+    height: 525px;
     background-image: url("../../images/panel.jpg");
     background-size: cover;
     background-position: 50% 50%;
@@ -67,7 +67,7 @@ body {
       font-size: 18px;
       margin-left: 80px;
       font-weight: 500; }
-  body .container h3 {
+  body .list h3 {
     color: #999; }
   body footer {
     border-top: 1px solid #cccccc;
