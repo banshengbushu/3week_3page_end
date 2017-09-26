@@ -1,10 +1,7 @@
 body {
-  padding: 30px;
-  font-family: cursive, Tahoma, Helvetica, Arial, "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑", sans-serif;
-
-  ul {
-    list-style: none;
-  }
+  padding: 20px;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
 
   .font-solid {
     color: #fafafa;
@@ -31,7 +28,7 @@ body {
     transform-style: preserve-3d;
   }
 
-  @keyframes h3_silde {
+  @keyframes slide_up {
     from {
       margin-bottom: 100%;
     }
@@ -42,24 +39,13 @@ body {
   }
 
   .slide {
-    animation: h3_silde 7s;
-    -moz-animation: h3_silde 7s; /* Firefox */
-    -webkit-animation: h3_silde 7s; /* Safari and Chrome */
-    -o-animation: h3_silde 7s; /* Opera */
+    animation: slide_up 7s;
+    -moz-animation: slide_up 7s; /* Firefox */
+    -webkit-animation: slide_up 7s; /* Safari and Chrome */
+    -o-animation: slide_up 7s; /* Opera */
   }
 
   header {
-    video {
-      width: 80px;
-      border-radius: 50px;
-      margin-right: 20px;
-    }
-
-    .icon {
-      position: absolute;
-      font-size: 30px;
-    }
-
     img {
       width: 50px;
       height: 50px;
@@ -67,7 +53,12 @@ body {
       margin-right: 15px;
     }
 
-   .nav-tabs{
+    .icon {
+      position: absolute;
+      font-size: 30px;
+    }
+
+    .nav-tabs {
       float: right;
       margin: 10px;
 
@@ -87,16 +78,15 @@ body {
       h3 {
         margin-left: 20px;
         padding: 20px;
-        line-height: 40px;
       }
 
       h4 {
-        margin: 20px 0 20px 40px;
+        margin: 0 0 20px 50px;
       }
 
       p {
         font-size: 19px;
-        margin: 20px 0 20px 60px;
+        margin: 20px 0 20px 70px;
         font-weight: 500;
       }
 
