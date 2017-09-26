@@ -12,8 +12,7 @@ body {
   body .thumbnail:hover {
     transform: scale(1.1);
     cursor: pointer;
-    transition: all 0.6s;
-    transform-style: preserve-3d; }
+    transition: all 0.6s; }
 @keyframes slide_up {
   from {
     margin-bottom: 100%; }
